@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+.titulo {
+    border: 3px solid yellowgreen;
+    border-radius: 5%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+.pueblo h2 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+.pueblo p {
+    margin: 2px;
+}
+.photo img {
+    margin-top: 2px;
+}
+.pueblo {
+    border: 2px solid yellowgreen;
+    border-radius: 5%;
+    padding: 1rem;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo iframe, .photo img {
+    width: 100%;
+    border: 1px solid yellowgreen;
+    border-radius: 5%;
+    height: 100%;
+    min-height: 400px;
+    min-width: 400px;
+    object-fit: cover;
+}
+@media (max-width: 1200px) {
+    .photo-gallery {
+        flex-direction: column;
+    }
+    .photo {
+        margin-bottom: 1rem;
+    }
+}
+    
